@@ -1,0 +1,46 @@
+html, body{
+  height: 100%;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: #e3e3e3;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background: #e3e3e3;
+  width: 100%;
+  overflow:auto
+  
+}
+
+.dropdown-item {
+  margin: 0;
+  padding: 10px;
+  display: block;
+ }
+
+.dropdown .dropdown-input {
+  padding: 10px;  
+}
+button {
+  padding: 10px;
+  
+}
+
+.dropdown-item:hover {
+  background: #cecece;
+}
+
+.dropdown:hover .dropdown-list {
+  display: block;
+}

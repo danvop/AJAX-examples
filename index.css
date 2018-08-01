@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.menu {
+    width: 200px;
+}
+
+a {
+    display: block;
+    width: 180px;
+    text-decoration: none;
+    background: #e3e3e3;
+    padding: 10px;
+}
+a:hover {
+    
+    background: lightgreen;
+}
