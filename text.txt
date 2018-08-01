@@ -1,0 +1,2 @@
+total 0
+-rw-r--r-- 1 danila.popov 1049089 0 июл 30 12:13 text.txt
