@@ -20,13 +20,17 @@ function showHint(str) {
     }
 }
 
-//render items
 function renderItems(items){
-  let list = "";
+  let elem; //created element
+  let dropDownList = document.getElementById("dropdown-list");
+  dropDownList.innerHTML = "";
   items.forEach(function(item){
-    list += "<p class='dropdown-item' onclick='updateInput(this)'>" + item + "</p>";
+    elem = document.createElement('p');
+    elem.innerHTML = item;
+    elem.className = "dropdown-item";
+    elem.onclick = function(){updateInput(this);};
+    dropDownList.appendChild(elem);
   });
-  document.getElementById("dropdown-list").innerHTML = list;
 }
 
 function updateInput(id){
