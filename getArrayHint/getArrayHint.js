@@ -1,7 +1,6 @@
 //items array
 var items = [];
 
-
 function showHint(str) {
     if (str.length == 0) { 
         document.getElementById("dropdown-list").innerHTML = "";
